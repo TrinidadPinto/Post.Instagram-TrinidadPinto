@@ -1,0 +1,57 @@
+.body {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+}
+.bloque-top {
+    background-color: white;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+i {
+    font-size: 30px;
+}
+#texto {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 10px;
+    padding: 0;
+    line-height: 1;
+}
+.body img {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho disponible */
+    max-width: 100%; /* Evita que la imagen se expanda más allá del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    object-fit: cover; /* Hace que la imagen cubra el área del contenedor sin distorsionarse */
+    margin: 0 auto; /* Centra la imagen */
+}
+.barra {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+}
+.left-icons {
+    display: flex;
+    gap: 10px;
+}
+.Description {
+    background: white;
+    width: 100%;
+    margin: 0 auto;
+}
+p {
+    font-size: 20px;
+}
